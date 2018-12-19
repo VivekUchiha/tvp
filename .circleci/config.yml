@@ -37,7 +37,7 @@ jobs:
 
   build-clang:
     docker:
-      - image: buildpack-deps:xenial
+      - image: buildpack-deps:bionic
         environment:
           CXX: "clang++-6.0"
           CMAKE_BUILD_TYPE: "Debug"
